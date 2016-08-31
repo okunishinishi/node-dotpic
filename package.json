@@ -1,6 +1,6 @@
 {
   "name": "dotpic",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Doc picture generator",
   "main": "lib",
   "browser": "shim/browser",
