@@ -1,0 +1,17 @@
+/**
+ * {{pkg.description}}
+ * @module {{pkg.name}}
+ * @version {{pkg.version}}
+ */
+
+'use strict'
+
+const dotpic = require('./dotpic')
+
+let lib = dotpic.bind(this)
+
+Object.assign(lib, dotpic, {
+  dotpic
+})
+
+module.exports = lib
